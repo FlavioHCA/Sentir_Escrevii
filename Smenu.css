@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(Imagens/black-g5287bea7d_1920.jpg);
+    color: white;
+    background-size: cover;
+}
+
+.Menu {
+    background-color: rgba(0, 0, 0, 0.671);
+    max-width: 80%;
+    height: 40px;
+    margin: auto;
+    
+}
+
+.Menu .list_link {
+    list-style-type: none;
+    padding: 0;
+    height: 40px;
+    text-align: right;
+}
+
+.Menu .list_link li {
+    display: inline;
+    position: relative;
+}
+
+.Menu .list_link li a {
+    background-color: rgba(0, 0, 0, 0.418);
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 20px 5px 20px;
+    margin: 10px 20px 0px 0px;
+    color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.Menu .list_link li a:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    border-bottom: rgba(255, 255, 255, 0.815) solid;
+}
+
+.logo {
+    display: inline;
+    float: left;
+    margin: 10px 15px 10px 15%;
+    text-decoration: none; /*Texto*/
+    color: white; /*Texto*/
+}
+
+.mobile-menu, input {
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+
+    body {
+        overflow-x: hidden;
+    }
+    .Menu {
+        display: none;
+    }
+
+    .Menu .list_link li {
+        display: flex;
+        position: relative;
+    }
+
+    .logo {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.671);
+        margin: 0px;
+        padding: 15px 50% 15px 50%;
+        text-decoration: none;
+        color: white;
+    }
+
+    .mobile-menu {
+        display: block;
+        background-color: rgba(0, 0, 0, 0.671);
+        padding: 5px;
+        width: 80px;
+        position: absolute;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .mobile-menu div {
+        width: 32px;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+        margin: 8px;
+    }
+
+    .mobile-menu ul {
+        display: none;
+        width: 80px;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+
+    input {
+        display: none;
+    }
+
+    input:checked + .mobile-menu ul {
+        display: block;
+    }
+
+    .mobile-menu ul li{
+        margin-top: 10px;
+    }
+
+    .mobile-menu ul li:hover{
+        background-color: rgba(255, 255, 255, 0.623);
+    }
+    
+    .mobile-menu ul li a {
+        text-align: start;
+        width: 100%;
+        padding: 10px;
+        background-color: transparent;
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+    
+    .mobile-menu ul li a:hover {
+        -webkit-transform: none;
+        transform: none;
+        border-bottom: none;
+        color: black;
+    }
+}

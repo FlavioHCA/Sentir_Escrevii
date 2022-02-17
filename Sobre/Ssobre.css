@@ -1,0 +1,86 @@
+
+.box_sobre{
+    margin: 0% 5% 1% 5%;
+    text-align: center;
+}
+
+/*Sobre a autora*/
+.tot_autora {
+    margin-top: 10px;
+    border-radius: 10px;
+    max-width: 350px;
+    border: rgba(255, 255, 255, 0.13) solid;
+    background-color: rgba(255, 255, 255, 0.041);
+    display: inline-table;
+    height: 556px;
+}
+
+.autora {
+    border-radius: 4%;
+    width: 250px;
+    height: 300px;
+    display: inline-block;
+}
+
+.sobre_autora {
+    font-size: 16px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    max-width: 400px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/*Sobre a pagina sentir_escrevii*/
+.tot_pagina {
+    margin-top: 10px;
+    border-radius: 10px;
+    max-width: 350px;
+    border: rgba(255, 255, 255, 0.13) solid;
+    background-color: rgba(255, 255, 255, 0.041);
+    display: inline-table;
+    height: 556px;
+}
+
+.pagina {
+    border-radius: 4%;
+    width: 250px;
+    height: 300px;
+    display: inline-block;
+}
+
+.sobre_pagina {
+    font-size: 16px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    max-width: 400px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/*Sobre escrever*/
+.tot_escrever {
+    margin-top: 10px;
+    border-radius: 10px;
+    max-width: 350px;
+    border: rgba(255, 255, 255, 0.13) solid;
+    background-color: rgba(255, 255, 255, 0.041);
+    display: inline-table;
+    height: 556px;
+}
+
+.escrever {
+    border-radius: 4%;
+    width: 250px;
+    height: 300px;
+    display: inline-block;
+}
+
+.sobre_escrever {
+    font-size: 16px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    max-width: 400px;
+    display: inline-block;
+    margin-right: 10px;
+}

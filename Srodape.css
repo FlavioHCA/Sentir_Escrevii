@@ -1,0 +1,129 @@
+.Rodape {
+    background-color: rgba(0, 0, 0, 0.829);
+    width: 80%;
+    height: 40px;
+    display: table;
+    text-align: left;
+    margin-right: auto;
+    margin-left: 10%;
+    position: absolute;
+}
+
+.logo_rodape {
+    float: left;
+    margin: 10px 15px 10px 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.Redes {
+    float: right;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+
+.Instagram, .Linkedin, .Gmail, .WhatsApp {
+    width: 20px;
+    margin-right: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.Instagram:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.Linkedin:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.Gmail:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.WhatsApp:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+@media only screen and (max-width: 700px) {
+    .logo_rodape {
+        display: none;
+    }
+
+    .Redes {
+        text-align: center;
+        float: none;
+        vertical-align: middle;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .Instagram, .Gmail, .WhatsApp {
+        width: 40px;
+        margin-right: 10%;
+        display: inline-block;
+        vertical-align: auto;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    .Linkedin {
+        width: 40px;
+        margin-right: 0px;
+        display: inline-block;
+        vertical-align: auto;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+
+    .Instagram:hover {
+        -webkit-transform: none;
+        transform: none;
+    }
+    .Linkedin:hover {
+        -webkit-transform: none;
+        transform: none;
+    }
+    .Gmail:hover {
+        -webkit-transform: none;
+        transform: none;
+    }
+    .WhatsApp:hover {
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .Rodape {
+        background-color: rgba(0, 0, 0, 0);
+        width: 40px;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        text-align: initial;
+        margin-left: 0px;
+        position: fixed;
+    }
+    
+    .Redes {
+        margin-top: 200px;
+        float: none;
+        vertical-align: middle;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .Instagram, .Linkedin, .Gmail, .WhatsApp {
+        width: 35px;
+        margin-right: 0px;
+        display: block;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+}
